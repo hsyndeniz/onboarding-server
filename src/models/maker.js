@@ -1,7 +1,7 @@
 const { Model } = require('sequelize')
 const { keyring } = require('@fnando/keyring')
 
-const keys = JSON.parse(process.env.KEYRING)
+const keys = process.env.KEYRING
 const digestSalt = process.env.KEYRING_SALT
 
 module.exports = (sequelize, DataTypes) => {
