@@ -13,7 +13,7 @@
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
-  "production": {
+  "prod": {
     "username": "postgres",
     "password": "postgres",
     "database": "onboarding_server_test",
@@ -26,8 +26,8 @@
       }
     }
   },
-  "prod": {
-    "use_env_variable": "HEROKU_POSTGRESQL_COPPER_URL",
+  "production": {
+    "use_env_variable": "DATABASE",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
