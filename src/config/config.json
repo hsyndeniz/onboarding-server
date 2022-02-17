@@ -1,8 +1,41 @@
 {
+  "develop": {
+    "url": "postgres://zvouisoz:EN1brVo3WAfw4zkN5y_MwWZ9JxaSYEs7@tyke.db.elephantsql.com/zvouisoz",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "heroku": {
+    "url": "postgres://ebyotfmpsdpxhs:e3937f0bc48d5ec9fc8786109c8430054efceac40100bd20e116317b0472bae9@ec2-63-35-79-208.eu-west-1.compute.amazonaws.com:5432/d44pdu3ehulcdt",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "dev": {
+    "username": "ebyotfmpsdpxhs",
+    "password": "e3937f0bc48d5ec9fc8786109c8430054efceac40100bd20e116317b0472bae9",
+    "database": "d44pdu3ehulcdt",
+    "host": "ec2-63-35-79-208.eu-west-1.compute.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
   "development": {
     "username": "postgres",
     "password": "postgres",
-    "database": "onboarding_server_development",
+    "database": "onboarding_server_development2",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
