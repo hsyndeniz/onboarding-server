@@ -32,10 +32,10 @@
       }
     }
   },
-  "development": {
+  "production": {
     "username": "postgres",
     "password": "postgres",
-    "database": "onboarding_server_development2",
+    "database": "onboarding_server_development",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
@@ -59,7 +59,7 @@
       }
     }
   },
-  "production": {
+  "production2": {
     "use_env_variable": "DATABASE",
     "dialect": "postgres",
     "dialectOptions": {
